@@ -1,6 +1,6 @@
 <h1>Legacy Submission Forms</h1>
 
-<p>Please note that the methods listed here are not recommended as they are outdated and increase the chances of getting spam submissions. A current method of using <a href="https://github.com/eci-lasso/single-project-form" target="_blank">PHP</a> or <a href="https://platform.lassocrm.com/#/api" target="_blank">JSON</a> are recommended instead.</p>
+<p>Please note that the methods listed here are not recommended as they are outdated and increase the chances of getting spam submissions. One of the current methods of using <a href="https://github.com/eci-lasso/single-project-form" target="_blank">PHP</a> or <a href="https://platform.lassocrm.com/#/api" target="_blank">JSON</a> are recommended instead.</p>
 
 <h3><a name="html-forms">HTML</a></h3>
 <p>For posting to <code>http://www.mylasso.com/registrant_signup.php</code> see the example <a href="https://github.com/eci-lasso/legacy-forms/blob/master/mylasso-signup-php.html" target="_blank">mylasso-signup-php.html</a>.</p>
