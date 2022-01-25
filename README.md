@@ -5,7 +5,7 @@
 <h3><a name="html-forms">HTML</a></h3>
 <p>For posting to <code>http://www.mylasso.com/registrant_signup.php</code> see the example <a href="https://github.com/eci-lasso/legacy-forms/blob/master/mylasso-signup-php.html" target="_blank">mylasso-signup-php.html</a>.</p>
 <p>For posting to <code>https://app.lassocrm.com/registrant_signup.php</code> see the example <a href="https://github.com/eci-lasso/legacy-forms/blob/master/app-signup-php.html" target="_blank">app-signup-php.html</a>.</p>
-<p>For posting to <code>https://app.lassocrm.com/registrant_signup/</code> see the example <a href="https://github.com/eci-lasso/legacy-forms/blob/master/app-signup.html" target="_blank">app-signup-php.html</a>.</p>
+<p>For posting to <code>https://app.lassocrm.com/registrant_signup/</code> see the example <a href="https://github.com/eci-lasso/legacy-forms/blob/master/app-signup.html" target="_blank">app-signup.html</a>.</p>
 
 <h3><a name="html-forms">JSON</a></h3>
 <p>If you're using the <b>Lasso UID</b>, you must use the syntax in <a href="https://github.com/eci-lasso/legacy-forms/blob/master/lead.json" target="_blank">lead.json</a> to submit. You can use our <a href="http://app.lassocrm.com/registrant_signup/help" target="_blank">Legacy Form Generator</a> to generate the code.</p>
