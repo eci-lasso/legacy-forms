@@ -2,12 +2,12 @@
 
 <p>Please note that the methods listed here are not recommended as they are outdated and increase the chances of getting spam submissions. One of the current methods of using <a href="https://github.com/eci-lasso/single-project-form" target="_blank">PHP</a> or <a href="https://platform.lassocrm.com/#/api" target="_blank">JSON</a> are recommended instead.</p>
 
-<h3><a name="html-forms">HTML</a></h3>
+<h3><a name="html">HTML</a></h3>
 <p>For posting to <code>http://www.mylasso.com/registrant_signup.php</code> see the example <a href="https://github.com/eci-lasso/legacy-forms/blob/master/mylasso-signup-php.html" target="_blank">mylasso-signup-php.html</a>.</p>
 <p>For posting to <code>https://app.lassocrm.com/registrant_signup.php</code> see the example <a href="https://github.com/eci-lasso/legacy-forms/blob/master/app-signup-php.html" target="_blank">app-signup-php.html</a>.</p>
 <p>For posting to <code>https://app.lassocrm.com/registrant_signup/</code> see the example <a href="https://github.com/eci-lasso/legacy-forms/blob/master/app-signup.html" target="_blank">app-signup.html</a>.</p>
 
-<h3><a name="html-forms">JSON</a></h3>
+<h3><a name="json">JSON</a></h3>
 <p>If you're using the <b>Lasso UID</b>, you must use the syntax in <a href="https://github.com/eci-lasso/legacy-forms/blob/master/lead.json" target="_blank">lead.json</a> to submit. You can use our <a href="http://app.lassocrm.com/registrant_signup/help" target="_blank">Legacy Form Generator</a> to generate the code.</p>
 <p>In your <code>POST</code> request, you will need to include a custom header:</p>
 <pre>X-Lasso-Auth: Token={apiKey},Version=1.0</pre>
