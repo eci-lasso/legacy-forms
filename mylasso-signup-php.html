@@ -122,9 +122,8 @@
   <script type="text/javascript">
     <!--
     var LassoCRM = LassoCRM || {};
-    (function(ns){
-      ns.tracker = new LassoAnalytics("LAS-123456-01");
-    })(LassoCRM);
+    (function(ns){ns.tracker = new LassoAnalytics("LAS-123456-01");})
+    (LassoCRM);
     try {
       LassoCRM.tracker.setTrackingDomain(_ldstJsHost);
       LassoCRM.tracker.init();  // initializes the tracker
@@ -150,27 +149,15 @@
       else if(e){
         (function(){
           var t=document.createElement("doc:rdy");
-          try{
-            t.doScroll("left");
-            i();
-            t=null;
-          }
-          catch(e){
-            st(arguments.callee,0);
-          }
+          try {t.doScroll("left"); i();t=null;}
+          catch(e){st(arguments.callee,0);}
         })();
       }
-      else{
-        window.onload=i;
-      }
+      else{window.onload=i;}
     })
-    (function() {
-      for(var i = 0; i < document.forms.length; i++) {
-        if(document.forms[i].guid != undefined) {
-          document.forms[i].guid.value = LassoCRM.tracker.readCookie("ut");
-        }
-      }
-    });
+    (function() {for(var i = 0; i < document.forms.length; i++) {
+      if(document.forms[i].guid != undefined) {document.forms[i].guid.value = LassoCRM.tracker.readCookie("ut");}
+    }});
   </script>
 </body>
 </html>
